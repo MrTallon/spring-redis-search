@@ -1,1 +1,9 @@
-spring.application.name=spring-redis-search
+spring:
+  application:
+    name: spring-redis-search
+server:
+  port: 8085
+
+redis:
+  url: redis://localhost:6379
+  index: student

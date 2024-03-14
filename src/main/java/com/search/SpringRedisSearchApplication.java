@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class SpringRedisSearchApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(SpringRedisSearchApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(SpringRedisSearchApplication.class, args);
+    }
 
 }

@@ -1,0 +1,21 @@
+### 查询启动状态
+GET {{host}}/status
+Accept: application/json
+Content-Type: application/json
+
+{
+}
+
+> reponse-check.js
+
+
+### 列表查询
+POST {{host}}/student/search
+Accept: application/json
+Content-Type: application/json
+
+{
+  "query": "张三"
+}
+
+> reponse-check.js
